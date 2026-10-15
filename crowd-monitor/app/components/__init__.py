@@ -1,1 +1,0 @@
-# Crowd Monitor Components Package
