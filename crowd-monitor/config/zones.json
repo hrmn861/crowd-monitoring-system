@@ -1,0 +1,50 @@
+{
+  "camera_id": "CAM-01-ENTRANCE-NORTH",
+  "frame_size": [1280, 720],
+  "zones": [
+    {
+      "zone_id": "Z1",
+      "name": "North Gate Security Check",
+      "area_m2": 32.5,
+      "capacity": 65,
+      "safe_density_limit": 2.0,
+      "polygon": [[50, 320], [420, 310], [430, 690], [40, 700]],
+      "alert_threshold": 50,
+      "persistence_s": 45,
+      "cooldown_s": 300
+    },
+    {
+      "zone_id": "Z2",
+      "name": "Central Escalator Lobby",
+      "area_m2": 26.0,
+      "capacity": 45,
+      "safe_density_limit": 1.7,
+      "polygon": [[440, 280], [790, 275], [780, 680], [450, 685]],
+      "alert_threshold": 38,
+      "persistence_s": 30,
+      "cooldown_s": 240
+    },
+    {
+      "zone_id": "Z3",
+      "name": "Exhibition Hall East Corridor",
+      "area_m2": 45.0,
+      "capacity": 90,
+      "safe_density_limit": 2.0,
+      "polygon": [[810, 250], [1240, 240], [1250, 670], [800, 675]],
+      "alert_threshold": 70,
+      "persistence_s": 60,
+      "cooldown_s": 300
+    },
+    {
+      "zone_id": "Z4",
+      "name": "Ticket Validation Concourse",
+      "area_m2": 22.0,
+      "capacity": 35,
+      "safe_density_limit": 1.6,
+      "polygon": [[380, 100], [860, 95], [840, 260], [400, 265]],
+      "alert_threshold": 28,
+      "persistence_s": 30,
+      "cooldown_s": 180
+    }
+  ]
+}
